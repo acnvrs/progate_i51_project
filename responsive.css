@@ -1,58 +1,37 @@
-/* Untuk Tablet */
-@media all and (max-width: 1000px) {
-  .lesson {
-    width: 50%;
-    margin-bottom: 50px;
-  }
-
-  .top-wrapper h1 {
-    font-size: 32px;
-  }
-
-  .heading h2 {
-    font-size: 20px;
-  }
+@media screen and (max-width: 980px) {
+	.members {
+		max-width: 45%;
+	}
 }
 
-/* Untuk Smartphone */
-@media all and (max-width: 670px) {
-  .lesson {
-    width: 100%;
-  }
+@media screen and (max-width: 600px) {
+	.members {
+		max-width: 100%;
+	}
 
-  footer {
-    text-align: center;
-  }
+	header {
+		height: 40px;
 
-  .btn {
-    width: 100%;
-  }
+	}
 
-  .facebook {
-    margin-bottom: 10px;
-  }
+	.header-wrapper {
+		line-height: 40px;
+	}
 
-  .top-wrapper {
-    text-align: left;
-  }
+	.header-kiri a {
+		display: none;
+	}
 
-  /* Tambahkan CSS untuk header-right */
-  .header-right {
-    display: none;
-  }
+	.header-kanan a {
+		display: none;
+	}
 
-  /* Tambahkan CSS untuk menu-icon */
-  .menu-icon {
-    display: block;
-  }
+	header span {
+		display: block;
+	}
 
-  .top-wrapper h1 {
-    font-size: 24px;
-    line-height: 36px;
-  }
-
-  .top-wrapper p {
-    font-size: 14px;
-    line-height: 20px;
-  }
+	.landing-text h1 {
+		font-size : 300%;
+		letter-spacing: 10px;
+	}
 }
