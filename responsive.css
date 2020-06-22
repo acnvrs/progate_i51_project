@@ -1,10 +1,10 @@
-@media screen and (max-width: 980px) {
+@media all and (max-width: 980px) {
 	.members {
 		max-width: 45%;
 	}
 }
 
-@media screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
 	.members {
 		max-width: 100%;
 	}
