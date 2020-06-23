@@ -234,11 +234,12 @@ font-weight: lighter;
 footer a {
   text-decoration: none;
   color: white;
-  margin: 0 2ss0px;
+  opacity: 0.4;
+  margin: 0 20px;
 }
 
 .contact a:hover {
-  color: #8A3E07;
+ opacity: 1;
 }
 
 footer span {
